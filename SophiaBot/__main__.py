@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """Hey there 👋! My name is *slteamrose*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
 STICKERS = (
       "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
       "CAACAgUAAx0CTpRfGwACF5phMfi5vgKwQFg6KuzHiEc79QFT0QACCR4AAsZRxhVu32VqEb3_1SAE",
       "CAACAgUAAx0CTpRfGwACGIBhQcGJDHuuXsU5el3I86SEx3nTpgAC2R8AAsZRxhUpEe6EcVukQCAE",
-)    
-
+    "CAACAgUAAx0CVMSK0AADDGGUY2fEjx-8IeNZfOJRcEBRrisZAALfGwACxlHGFfmji6gnUEPMIgQ",
+)
 
 buttons = [
     [
@@ -94,11 +94,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/slteamrosechannel"),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/slteamrosebot"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ slteam rose add to your Group ➕", url="http://t.me/sl_team_rose_bot?startgroup=true"),   
     ],
 ]
 
@@ -109,7 +109,7 @@ Every possibility of Sophia is documentated here
 Click buttons to get help
 """
 
-DONATE_STRING = """ @dihanofficial """
+DONATE_STRING = """ @Dilasnalithmantha """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -505,7 +505,7 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="💾 Source Code", url=f""),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
