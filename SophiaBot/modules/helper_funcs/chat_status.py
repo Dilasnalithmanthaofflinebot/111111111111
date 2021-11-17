@@ -1,4 +1,4 @@
-𝘿𝙞𝙡𝙖𝙨𝙣𝙖 𝙡𝙞𝙩𝙝𝙢𝙖𝙣𝙩𝙝𝙖 </ 𝙎𝙇𝘿™</> 🇱🇰, [11/17/2021 8:37 PM]
+
 from functools import wraps
 from threading import RLock
 
