@@ -505,7 +505,7 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f""),
+                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/Dilasnaafk/SophiaBot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
