@@ -94,11 +94,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" Alexie News 🙋‍♀️ ", url=f""),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f""),
+        InlineKeyboardButton(text=" Alexie News 🙋‍♀️ ", url=f"https://t.me/SLninjaTeamchannel"),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SLNinjaTeam"),
     ],
     [
-        InlineKeyboardButton(text="➕  Alexie add to your Group ➕", url="http://t.me/sl_dragon_Team_rose_bot?startgroup=true"),   
+        InlineKeyboardButton(text="➕  Alexie add to your Group ➕", url="http://t.me/miss_Alexie_bot?startgroup=true"),   
     ],
 ]
 
