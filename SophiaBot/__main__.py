@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *SL Dragon Rose 🌸*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """Hey there 👋! My name is *Alexie*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
 STICKERS = (
       "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
@@ -94,11 +94,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" SL Dragon Rose 🌸 News 🙋‍♀️ ", url=f"https://t.me/SLDragonTeamchannel"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SLDragonTeam"),
+        InlineKeyboardButton(text=" Alexie News 🙋‍♀️ ", url=f""),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f""),
     ],
     [
-        InlineKeyboardButton(text="➕  SL Dragon Rose 🌸 add to your Group ➕", url="http://t.me/sl_dragon_Team_rose_bot?startgroup=true"),   
+        InlineKeyboardButton(text="➕  Alexie add to your Group ➕", url="http://t.me/sl_dragon_Team_rose_bot?startgroup=true"),   
     ],
 ]
 
@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("Heya, SL Dragon Rose 🌸 here :) PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("Heya, Alexie here :) PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -801,7 +801,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "SL Dragon Rose 🌸 is Now Online! 💫 ")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Alexie is Now Online! 💫 ")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to @SophiaSupport_Official, go and check!"
