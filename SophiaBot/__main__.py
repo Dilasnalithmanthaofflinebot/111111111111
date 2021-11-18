@@ -222,6 +222,8 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
+        STICKERS = (
+      "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
         update.effective_message.reply_text("Heya, Alexie here :) PM me if you have any questions how to use me!")
 
 
