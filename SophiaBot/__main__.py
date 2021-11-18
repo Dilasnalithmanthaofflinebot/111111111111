@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *sldragonTeam rosebot ❤️*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """Hey there 👋! My name is *rosebot ❤️*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
 STICKERS = (
       "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
@@ -94,11 +94,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="  News 🙋‍♀️ ", url=f"https://t.me/slteamrosechannel"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/slteamrosebot"),
+        InlineKeyboardButton(text=" rose News 🙋‍♀️ ", url=f"https://t.me/SLDragonTeamchannel"),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SLDragonTeam"),
     ],
     [
-        InlineKeyboardButton(text="➕ slteam rose add to your Group ➕", url="http://t.me/sl_team_rose_bot?startgroup=true"),   
+        InlineKeyboardButton(text="➕  rose add to your Group ➕", url="http://t.me/sl_dragon_Team_rose_bot?startgroup=true"),   
     ],
 ]
 
