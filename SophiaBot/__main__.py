@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *rosebot ❤️*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """Hey there 👋! My name is *SL Dragon Rose 🌸*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
 STICKERS = (
       "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
@@ -94,11 +94,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" rose News 🙋‍♀️ ", url=f"https://t.me/SLDragonTeamchannel"),
+        InlineKeyboardButton(text=" SL Dragon Rose 🌸 News 🙋‍♀️ ", url=f"https://t.me/SLDragonTeamchannel"),
         InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SLDragonTeam"),
     ],
     [
-        InlineKeyboardButton(text="➕  rose add to your Group ➕", url="http://t.me/sl_dragon_Team_rose_bot?startgroup=true"),   
+        InlineKeyboardButton(text="➕  SL Dragon Rose 🌸 add to your Group ➕", url="http://t.me/sl_dragon_Team_rose_bot?startgroup=true"),   
     ],
 ]
 
@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("Heya, Sophia here :) PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("Heya, SL Dragon Rose 🌸 here :) PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -353,7 +353,7 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
+            text=""" My name is *SL Dragon Rose 🌸*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
 *Bot Version: 3.0*
 \n*Bot Developers:*
 -  @dihanrandila
@@ -801,7 +801,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 ")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "SL Dragon Rose 🌸 is Now Online! 💫 ")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to @SophiaSupport_Official, go and check!"
