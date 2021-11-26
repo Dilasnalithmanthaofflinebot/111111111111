@@ -11,4 +11,4 @@ Sophia AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
 """
 
-__mod_name__ = "AI Assistant"
+__mod_name__ = "AI soon"
